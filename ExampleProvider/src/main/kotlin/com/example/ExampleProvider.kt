@@ -1,21 +1,10 @@
-package com.example
+package com.katanime
 
-import com.lagradost.cloudstream3.MainAPI
-import com.lagradost.cloudstream3.SearchResponse
-import com.lagradost.cloudstream3.TvType
+import com.lagradost.cloudstream3.*
 
-class ExampleProvider : MainAPI() { // All providers must be an instance of MainAPI
-    override var mainUrl = "https://example.com/" 
-    override var name = "Example provider"
-    override val supportedTypes = setOf(TvType.Movie)
-
-    override var lang = "en"
-
-    // Enable this when your provider has a main page
+class Katanime : MainAPI() { 
+    override var mainUrl = "https://katanime.top" 
+    override var name = "Katanime"
     override val hasMainPage = true
-
-    // This function gets called when you search for something
-    override suspend fun search(query: String): List<SearchResponse> {
-        return listOf()
-    }
+    override var lang = "es"
 }
