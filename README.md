@@ -53,6 +53,6 @@ Everything in this repo is released into the public domain. You may use it howev
 
 
 ## Attribution
-
-This template as well as the gradle plugin and the whole plugin system is **heavily** based on [Aliucord](https://github.com/Aliucord).
+This template mi repoas well as the gradle plugin and the whole plugin system is **heavily** based on [Aliucord](https://github.com/Aliucord).
 *Go use it, it's a great mobile discord client mod!*
+mi repo
